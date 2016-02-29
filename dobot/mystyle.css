@@ -1,29 +1,64 @@
+
+.logo {
+ width: 1000px;
+ height: 110px;
+ background-image: url(../dobot/masthead.psd);
+ text-indent:-9999px;
+ display:block;
+ margin-bottom: 100px}
+
+
 body {background-color:#1a2325;
-      padding-left:100px;
-      padding-right:100px;}
+      font-family:LFT Etica;
+      font-weight:lighter;}
+      
 
-
-h1 {color:white;
-    font-size:2em;
-    font-weight:lighter;}
-
-h2 {color:white;
-    font-size:2em;
-    font-weight:lighter;}
+h1,h2 {color:white;
+       font-size:30px;
+       margin-left:100px;
+       }
 
 
 h4 {color:#363c3e;
-    font-size:1em;
-    font-weight:lighter;}
+    font-size:16px;
+    margin-left:100px;
+    }
 
 
 
 p {color:#abadad;
-   font-size:1em;}
+   font-size:16px;
+   margin-left:100px;
+   }
 
 
 a {color:#01ccce;
-   text-decoration:none;}
+   text-decoration:none;
+   margin-left:100px;
+   }
+
+
+l1 {
+  padding-left:500px;
+  float:right;
+  position:absolute;}
+
+  l2 {
+  padding-left:500px;
+  float:right;
+  position:absolute;}
+
+  l3 {
+  padding-left:500px;
+  padding-top:270px;
+  float:right;
+  position:absolute;}
+
+button {color:white;
+        background-color:#01ccce;
+        padding:10px;
+        margin:10px;
+        }
 
 
 
