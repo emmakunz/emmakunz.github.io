@@ -1,64 +1,85 @@
 
-.logo {
- width: 1000px;
- height: 110px;
- background-image: url(../dobot/masthead.psd);
- text-indent:-9999px;
- display:block;
- margin-bottom: 100px}
 
 
-body {background-color:#1a2325;
+body {position:relative;
+      background-color:#1a2325;
       font-family:LFT Etica;
-      font-weight:lighter;}
+      border-top-width:4px;
+      border-top-color:#f8695a;
+      border-top-style:solid;
+      margin-right:auto;
+      margin-left:auto;
+      width:1100px;
+      }
       
 
-h1,h2 {color:white;
-       font-size:30px;
-       margin-left:100px;
+h1    {color:white;
+       font-size:25px;
+       }
+
+h2    {color:white;
+       font-size:20px;
+       font-weight:lighter;
        }
 
 
 h4 {color:#363c3e;
-    font-size:16px;
-    margin-left:100px;
+    font-size:15px;
+    font-weight:lighter;
     }
 
 
 
 p {color:#abadad;
-   font-size:16px;
-   margin-left:100px;
+   font-size:15px;
+   font-weight:lighter;
    }
 
 
 a {color:#01ccce;
    text-decoration:none;
-   margin-left:100px;
+   font-size:15px;
    }
-
-
-l1 {
-  padding-left:500px;
-  float:right;
-  position:absolute;}
-
-  l2 {
-  padding-left:500px;
-  float:right;
-  position:absolute;}
-
-  l3 {
-  padding-left:500px;
-  padding-top:270px;
-  float:right;
-  position:absolute;}
-
-button {color:white;
+ 
+ button {color:white;
         background-color:#01ccce;
         padding:10px;
         margin:10px;
+        border:none;
         }
+
+
+  .calendar {
+  position:absolute;
+  right:200px;
+  top:100px;
+  border-style:solid;
+  border-color:white;
+  border-width:3px;}
+
+  .anchor {
+  position:absolute;
+  right:200px;
+  top: 600px; 
+  border-style:solid;
+  border-color:white;
+  border-width:3px;}
+
+  .stickers {
+  position:absolute;
+  right:200px;
+  top:1100px;
+ border-style:solid;
+  border-color:white;
+  border-width:3px;}
+
+  .dobot {
+    position:absolute;
+    left:100px;
+  }
+
+
+
 
 
 
