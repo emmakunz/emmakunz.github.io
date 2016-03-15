@@ -33,12 +33,17 @@ h4 {color:#363c3e;
 p {color:#abadad;
    font-size:15px;
    font-weight:lighter;
+
    }
 
 
 a {color:#01ccce;
    text-decoration:none;
    font-size:15px;
+   border-bottom-width:2px;
+  border-bottom-color:#363c3e;
+  border-bottom-style:dotted;
+  padding-bottom:10px;
    }
  
  button {color:white;
@@ -47,12 +52,19 @@ a {color:#01ccce;
         margin:10px;
         border:none;
         }
+ 
+ div
+ {width:350px;
+  padding-left:100px;
+  padding-top:100px;
+  }
+
 
 
   .calendar {
   position:absolute;
   right:200px;
-  top:100px;
+  top:120px;
   border-style:solid;
   border-color:white;
   border-width:3px;}
@@ -60,7 +72,7 @@ a {color:#01ccce;
   .anchor {
   position:absolute;
   right:200px;
-  top: 600px; 
+  top: 640px; 
   border-style:solid;
   border-color:white;
   border-width:3px;}
@@ -68,7 +80,7 @@ a {color:#01ccce;
   .stickers {
   position:absolute;
   right:200px;
-  top:1100px;
+  top:1160px;
  border-style:solid;
   border-color:white;
   border-width:3px;}
@@ -77,7 +89,6 @@ a {color:#01ccce;
     position:absolute;
     left:100px;
   }
-
 
 
 
