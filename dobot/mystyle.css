@@ -59,6 +59,28 @@ a {color:#01ccce;
   padding-top:100px;
   }
 
+@media (max-width: 900px) 
+{
+  h1 {font-size: 20px;}
+  h2 {font-size:15px;}
+  h4 {font-size:10px;}
+  a {font-size:10px;}
+  p {font-size:10px;}
+}
+
+@media (min-width: 550px) 
+{
+  h1 {font-size: 25px;}
+  h2 {font-size:20px;}
+  h4 {font-size:15px;}
+  a {font-size:15px;}
+  p {font-size:15px;}
+}
+
+
+
+  h1, h2, h4, p, a {transition-duration:.5s;}
+
 
 
   .calendar {
