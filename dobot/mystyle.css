@@ -1,5 +1,9 @@
 
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
 body {position:relative;
       background-color:#1a2325;
@@ -9,7 +13,6 @@ body {position:relative;
       border-top-style:solid;
       margin-right:auto;
       margin-left:auto;
-      width:1100px;
       }
       
 
@@ -41,9 +44,9 @@ a {color:#01ccce;
    text-decoration:none;
    font-size:15px;
    border-bottom-width:2px;
-  border-bottom-color:#363c3e;
-  border-bottom-style:dotted;
-  padding-bottom:10px;
+   border-bottom-color:#363c3e;
+   border-bottom-style:dotted;
+   padding-bottom:10px;
    }
  
  button {color:white;
@@ -59,6 +62,24 @@ a {color:#01ccce;
   padding-top:100px;
   }
 
+.monsterdiv {
+  padding-bottom:20px;
+  border-bottom-style:solid;
+  border-bottom-color:#363c3e;
+  border-bottom-width:2px;
+}
+
+.anchordiv {
+  padding-bottom:20px;
+  border-bottom-style:solid;
+  border-bottom-color:#363c3e;
+  border-bottom-width:2px;
+}
+
+  h1, h2, h4, p, a  {width:300px;}
+
+
+
 @media (max-width: 900px) 
 {
   h1 {font-size: 20px;}
@@ -66,6 +87,32 @@ a {color:#01ccce;
   h4 {font-size:10px;}
   a {font-size:10px;}
   p {font-size:10px;}
+  .calendar {
+      width:50%; 
+      right:200px;
+      top:120px;
+      border-style:solid;
+      border-color:white;
+      border-width:3px;}
+  .anchor {
+      width:50%;
+      right:200px;
+      top: 640px; 
+      border-style:solid;
+      border-color:white;
+      border-width:3px;}
+  .stickers {
+    width:50%;
+     right:200px;
+     top:1160px;
+     border-style:solid;
+     border-color:white;
+     border-width:3px;}
+  .dobot {width:5%;
+     position:absolute;
+    left:100px;}
+
+
 }
 
 @media (min-width: 550px) 
@@ -75,42 +122,40 @@ a {color:#01ccce;
   h4 {font-size:15px;}
   a {font-size:15px;}
   p {font-size:15px;}
+    .calendar {
+      width:100%; 
+      right:200px;
+      top:120px;
+      border-style:solid;
+      border-color:white;
+      border-width:3px;}
+  .anchor {
+      width:100%;
+      right:200px;
+      top: 640px; 
+      border-style:solid;
+      border-color:white;
+      border-width:3px;}
+  .stickers {
+    width:100%;
+     right:200px;
+     top:1160px;
+     border-style:solid;
+     border-color:white;
+     border-width:3px;}
+  .dobot {width:5%;
+     position:absolute;
+    left:100px;}
+
 }
 
 
 
   h1, h2, h4, p, a {transition-duration:.5s;}
+  .calendar, .stickers, .anchor, .dobot {transition-duration:.5s;}
 
 
 
-  .calendar {
-  position:absolute;
-  right:200px;
-  top:120px;
-  border-style:solid;
-  border-color:white;
-  border-width:3px;}
-
-  .anchor {
-  position:absolute;
-  right:200px;
-  top: 640px; 
-  border-style:solid;
-  border-color:white;
-  border-width:3px;}
-
-  .stickers {
-  position:absolute;
-  right:200px;
-  top:1160px;
- border-style:solid;
-  border-color:white;
-  border-width:3px;}
-
-  .dobot {
-    position:absolute;
-    left:100px;
-  }
 
 
 
