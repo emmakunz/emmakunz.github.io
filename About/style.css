@@ -1,0 +1,43 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+h1 {position:fixed;}
+
+
+#nav {padding:50px;
+      float:right;
+      list-style-type:none;}
+
+li, a {float:left;
+    padding:10px;
+    font-family:Helvetica;
+    font-size:15px;
+    color:#0a140c; 
+    text-decoration:none;}
+
+
+
+ h2 {padding-top: 300px;
+ 	padding-left:300px;
+ 	font-family:Helvetica;
+    font-size:30px;
+    color:#0a140c;
+    }
+
+p {padding-left:300px;
+ 	font-family:Helvetica;
+    font-size:12px;
+    color:#0a140c;
+    width:300px;}
+
+
+ #resume {font-family:Helvetica;
+ 	font-weight:bold;
+    font-size:30px;
+    padding-left:300px;
+    color:#00fffc;
+    }
+
