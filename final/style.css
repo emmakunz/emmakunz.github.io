@@ -1,0 +1,25 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+h1 {width:400px;
+    position:fixed;}
+
+#nav {padding:100px;
+      float:right;
+      list-style-type:none;}
+
+li, a {float:left;
+    padding:12px;
+    font-family:Georgia;
+    font-size: 15px;
+    font-color:#0a140c; 
+    text-decoration:none;}
+
+
+#images {float:left;
+         padding-left:60px;
+         width:1200px;
+         }
