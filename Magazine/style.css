@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-
+body {background-color:#e8e8e8;}
 
 h1 {position:fixed;}
 
@@ -27,12 +27,28 @@ li, a {float:left;
          }
 
 
+
 a:hover {color:#4EDCCA;
 	opacity:1.0;}
 
+h2 {float:right;}
 
-h2 {padding-left:1200px;}
+h3 {padding-top: 200px;
+  padding-left:300px;
+  font-family:Helvetica;
+    font-size:30px;
+    color:#0a140c;
+    }
 
+h4 {padding-left:300px;
+  font-family:Helvetica;
+    font-weight:bold;
+    color:#0a140c;}
 
+p {padding-left:300px;
+  font-family:Helvetica;
+    font-size:12px;
+    color:#0a140c;
+    width:300px;}
 
 

@@ -9,6 +9,7 @@ h1 {position:fixed;}
 
 
 #nav {padding-top:10px;
+	  padding-right:35px;
       float:right;
       list-style-type:none;}
 
@@ -19,19 +20,17 @@ li, a {float:left;
     color:#0a140c; 
     text-decoration:none;}
 
+a:hover {color:#4EDCCA;
+  opacity:1.0;}
 
-#images {float:left;
-         padding-left:60px;
-         padding-top:100px;
-         width:1400px;
+h2 {float:right;}
+
+
+
+#images {display:inline-block;
          }
 
 
-a:hover {color:#4EDCCA;
-	opacity:1.0;}
-
-
-h2 {padding-left:1200px;}
 
 
 
