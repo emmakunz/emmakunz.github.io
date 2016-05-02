@@ -3,24 +3,30 @@
    License: none (public domain)
 */
 
+body {background-color:#e8e8e8;}
 
 h1 {position:fixed;}
 
 
-#nav {padding:50px;
+#nav {padding-top:10px;
       float:right;
       list-style-type:none;}
 
 li, a {float:left;
-    padding:10px;
+    padding:5px;
     font-family:Helvetica;
     font-size:15px;
     color:#0a140c; 
     text-decoration:none;}
 
 
+a:hover {color:#4EDCCA;
+	opacity:1.0;}
 
- h2 {padding-top: 300px;
+
+h2 {padding-left:1200px;}
+
+ h3 {padding-top: 200px;
  	padding-left:300px;
  	font-family:Helvetica;
     font-size:30px;
@@ -34,10 +40,4 @@ p {padding-left:300px;
     width:300px;}
 
 
- #resume {font-family:Helvetica;
- 	font-weight:bold;
-    font-size:30px;
-    padding-left:300px;
-    color:#00fffc;
-    }
 
