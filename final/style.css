@@ -3,13 +3,17 @@
    License: none (public domain)
 */
 
-body {background-color:#e8e8e8;}
+body {
+      background-color:#e8e8e8;}
 
-h1 {position:fixed;}
 
+h1 {padding:10px;
+    font-family:Helvetica;
+    font-size:35px;
+    color:#0a140c;
+    position:fixed;}
 
 #nav {padding-top:10px;
-	  padding-right:35px;
       float:right;
       list-style-type:none;}
 
@@ -23,15 +27,18 @@ li, a {float:left;
 a:hover {color:#4EDCCA;
   opacity:1.0;}
 
-h2 {float:right;}
 
-
-
-#images {display:inline-block;
+.images {float:left;
+        padding-left:100px;
+         padding-top:180px;
+         width:1400px;
          }
 
 
+.magazine { width: 400px; height: 400px; background: url(magazine.jpg) no-repeat; } 
+.magazine:hover { width: 400px; height: 400px; background: url(magazineblack.jpg) no-repeat; } 
 
 
+h2 {float:right;}
 
 
