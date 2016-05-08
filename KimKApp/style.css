@@ -9,19 +9,24 @@ body {background-color:#e8e8e8;
 h1 {position:fixed;}
 
 
-#nav {padding-top:10px;
-      float:right;
-      list-style-type:none;
-      position:fixed;}
+h1 {padding:10px;
+    font-family:Helvetica;
+    font-size:35px;
+    color:#0a140c;
+    position:fixed;}
 
-li, a {float:left;
+#nav {
+  padding-top:10px;
+      float:right;
+      list-style-type:none;}
+
+li, a {
+   float:left;
     padding:5px;
     font-family:Helvetica;
     font-size:15px;
     color:#0a140c; 
-    text-decoration:none;
-    position:fixed;}
-
+    text-decoration:none;}
 
 
 a:hover {color:#4EDCCA;
