@@ -11,14 +11,16 @@ h1 {position:fixed;}
 
 #nav {padding-top:10px;
       float:right;
-      list-style-type:none;}
+      list-style-type:none;
+      position:fixed;}
 
 li, a {float:left;
     padding:5px;
     font-family:Helvetica;
     font-size:15px;
     color:#0a140c; 
-    text-decoration:none;}
+    text-decoration:none;
+    position:fixed;}
 
 
 
