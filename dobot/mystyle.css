@@ -73,9 +73,9 @@ a {color:#01ccce;
       position:absolute;
     }
 
-.calendar {top:150px;}
-.anchor {top:700px;}
-.stickers {top:1250px;}
+.calendar {top:80px;}
+.anchor {top:550px;}
+.stickers {top:1050px;}
 h1, h2, h4, p, a  {width:300px;} 
 
 
@@ -107,35 +107,12 @@ h4, p, a {font-size:12px;}
 
 
 
-.dobot {width:10%;}
+.dobot {width:10%;}}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  h1, h2, h4, p, a {transition:.5s;}
-  .calendar, .stickers, .anchor, .dobot {transition-duration:.5s;}
+  h1, h2, h4, p, a {transition:.2s;}
+  .calendar, .stickers, .anchor, .dobot {transition-duration:.2s;}
 
 
 
