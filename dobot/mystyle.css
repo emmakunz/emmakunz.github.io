@@ -111,7 +111,7 @@ h4, p, a {font-size:12px;}
 
 
 
-  h1, h2, h4, p, a {transition:.2s;}
+  h1, h2, h4, p, a {transition-duration:.2s;}
   .calendar, .stickers, .anchor, .dobot {transition-duration:.2s;}
 
 
