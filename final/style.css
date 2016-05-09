@@ -18,6 +18,10 @@ h1 {padding:10px;
       float:right;
       list-style-type:none;}
 
+header
+{position:fixed;
+right:0;}
+
 li, a {
    float:left;
     padding:5px;
@@ -34,13 +38,9 @@ a:hover {color:#4EDCCA;
         padding-left:100px;
          padding-top:180px;
          width:1400px;
-         
          }
 
-
-
-.magazine { width: 400px; height: 400px; background: url(magazine.jpg) no-repeat; } 
-.magazine:hover { width: 400px; height: 400px; background: url(magazineblack.jpg) no-repeat; } 
+img:hover {opacity:0.2;}
 
 
 h2 {float:right;}
