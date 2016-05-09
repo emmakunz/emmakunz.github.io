@@ -1,0 +1,60 @@
+
+<header>
+  <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+
+</header>
+
+<a href="#">Join the League</a>
+
+<div class="Join"> 
+<h1>Join the League</h1>
+<form action="action_page.php">
+<input type="text" name="FULL NAME" value="FULL NAME">
+<input type="url" name="PORTFOLIO/DRIBBLE" value="PORTFOLIO/DRIBBLE">
+<input type="email" value="EMAIL">
+</form>
+<p>We'll review all designers to make sure 
+our league is well balanced</p>
+<img class="metalhands" src="posterhand.jpg" alt="metalhands">
+</div>
+
+
+
+
+ <h1>Poster League</h1>
+ <div><h2>DockYard</h2>
+   <h3>101 tremont st. suite #200 Boston, MA 02108</h3><h2>Zero Dollahz</h2></div>
+
+<div><h4>Our Mission</h4><body>Poster league was initially started to bring artists of all sorts, beginner and professional, together in order to learn, inspire, and
+  share ideas with one another. To form a community
+  of passionate individuals who purely wish to create some truly beautiful artwork.
+  If we accidentally take over the world while on this destined course- well, that would be 
+  pretty all right too. At least it will be a group of friends ruling the planet.</body></div>
+
+<div><h4>Tools of the Trade</h4><li1><img class="" src="">Painting</li1> <li2><img class="" src="">Drawing</li2>
+  <li3><img class="" src="">Computering</li3><li4><img class="" src="">Inking</li4><li5><img class="" src="">Mediating</li5>
+  <li6><img class="" src="">Ideaing</li6><li7><img class="" src="">Listening</li7>
+  <li8><img class="" src="">Talking</li8><li9><img class="" src="">Concepting</li9>
+  <body><i>The Golden Rule:</i> Everyone is responsible for bringing their own laptop & art 
+    supplies as needed- or deemed acceptable by their mom. <i>Note:</i> You can download this icon pack for free <a href="">here &#8594</a></body></div>
+
+
+    <div><h5>Next Upcoming Event</h5><li10><h6>oct 18</h6><a href="">Lets Go Vintage</a>5:30-11:30</li10>
+      <li11><h6>oct 7</h6><a href="">Making Monkeys Go Bananas</a>5:30-11:30</li11>
+      <li12><h6>sep 30</h6><a href="">Lets Go Retro II</a>5:30-11:30</li12>
+      <li13><h6>sep 21</h6><a href="">The King of Kongs and Giant Lizards</a>5:30-11:30</li13>
+      <li14><h6>sep 3</h6><a href="">Lets Go Retro</a>5:30-11:30</li14>
+      <li15><h6>sep 21</h6><a href="">The King of Kongs and Giant Lizards</a>5:30-11:30</li15>
+    </div>
+    
+    
+    <div><h1>Poster League</h1><h4>Created by Dockyard</h4>
+      <a href=""><img class="" src=""></a>
+      <a href=""><img class="" src=""></a>
+      <a href=""><img class="" src=""></a>
+    </div>
+      
+      
+      
+      
+      
